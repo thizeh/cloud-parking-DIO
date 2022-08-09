@@ -1,10 +1,5 @@
 # cloud-parking
 
-## Run database
-docker run --name parking-db -p 5432:5432 -e POSTGRES_DB=parking -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -d postgres:10-alpine
+API about registering parking info
 
-## Stop database
-docker stop parking-db
-
-## Start database
-docker start parking-db
+https://parking-thizodev.herokuapp.com/swagger-ui.html#/Parking%20Controller -> name: user ; password: Dio@123456
